@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Doce Magia</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="alternate" type="application/rss+xml" title="Doce Magia" href="http://yourdomain.com/feed.xml" />
+
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+
+    
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.cbpFWSlider.min.js"></script>
+    <script src="js/scroll.js"></script>
+
+    <script src="js/functions.js"></script> <!-- PARALLAX HEADER --!>
+
+
+
+    <!--    FONTS  -->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Istok+Web:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+
+  <body>
+
+    
+<header class="site-header">
+
+<!-- 	<div id="parallax-test">
+	</div>
+ -->
+		
+	<div id="parallax-div">
+
+	  <div id="header-logo">
+	      <img src="/img/logo.png">
+	  </div>
+
+			<p id="blurb">A vida e feita de bons momentos, e quando compartilhamos um doce tornamos esses momentos deliciosos!
+			E quando compartilhamos um doce tornamos esses momentos deliciosos!
+
+			<a href="#start-form"><button id="cta">Fazer pedido</button></a>
+
+	</div>
+
+	<div id="bg-div">
+	</div>
+
+
+</header>
+
+
+
+   
+
+    <div id="content">
+
+    	 <h1 align="center">O que voce gostaria?</h1>
+
+	<!-- <div id="form-container">
+	<form action="//formspree.io/your@email.com"
+      method="POST">
+
+   	<div class="input-container">
+			<label for="Username">Nome</label>
+    	    <input id="nome" type="text" name="name" required>
+
+   	</div>
+			         
+    
+    <div class="input-container">
+		     <label for="Username">Email</label>
+  			 <input id="email" type="email" name="_replyto">
+  	</div>
+
+  	<div class="input-container">
+  			<label for="Username">Mensagem</label>
+   			<textarea id="message" required></textarea>
+   	</div>
+
+    		<input id="send-button" type="submit" value="Send">
+
+	</form>
+
+</div>
+
+ -->
+
+
+
+
+	<form class="form-container" action="//formspree.io/your@email.com"
+      method="POST">
+
+
+      <div class="form-title"><h2>Faça ja a sua encomenda!</h2></div>
+
+
+      <div class="form-title">Nome</div>
+
+    	    <input class="form-field" type="text" name="name" id="start-form" required /><br />
+
+    <div class="form-title">Email</div>
+
+    		<input class="form-field" type="email" name="_replyto" required /><br />
+
+    <div class="form-title">Mensagem</div>
+
+    		<textarea class="form-field" id="message-field" required></textarea>
+
+
+
+
+		 <div class="submit-container">
+		<input class="submit-button" type="submit" value="Enviar" />
+		</div>
+
+	</form>
+
+
+
+
+
+
+
+<!-- 
+<form class="form-container">
+<div class="form-title"><h2>Sign up</h2></div>
+<div class="form-title">Nome</div>
+<input class="form-field" type="text" name="firstname" /><br />
+<div class="form-title">Email</div>
+<input class="form-field" type="text" name="email" /><br />
+
+<div class="submit-container">
+<input class="submit-button" type="submit" value="Submit" />
+</div>
+</form>
+ -->
+
+	<div id="cbp-fwslider" class="cbp-fwslider">
+	<ul>
+		<li><a href="#"><img src="img/1.jpg" alt="img01"/></a></li>
+		<li><a href="#"><img src="img/2.jpg" alt="img02"/></a></li>
+		<li><a href="#"><img src="img/3.jpg" alt="img03"/></a></li>
+		<li><a href="#"><img src="img/4.jpg" alt="img04"/></a></li>
+		<li><a href="#"><img src="img/5.jpg" alt="img05"/></a></li>
+	</ul>
+</div>
+
+	<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+	</script>
+
+    <div id="footer">
+    </div>
+
+
+
+	</div>
+
+<!-- 	<div id="footer">				
+	<footer class="site-footer">
+
+</footer>
+
+	</div>
+
+ -->
+  </body>
+
+ 
+</html>
